@@ -1,5 +1,3 @@
-// models/petModel.js
-
 class ClinicHistory {
     constructor(veterinary, documentDoctor, nameDoctor, appoinmentDate, symptom, diagnosis, treatment, petHash) {
       this.veterinary = veterinary;

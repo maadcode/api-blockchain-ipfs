@@ -8,7 +8,7 @@ const options = {
       description: 'Una API para administrar historial clínico de mascotas con Ethereum Blockchain e IPFS.',
     },
   },
-  apis: ['./routing/routes.js'], // Rutas que quieres documentar
+  apis: ['./routing/routes.js'],
 };
 
 const specs = swaggerJsdoc(options);
